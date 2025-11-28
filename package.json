@@ -2,14 +2,19 @@
   "name": "klu-departments",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abhiram-jv.github.io/2400032963-FEDF-End_Sem",
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000"
+    "build": "next build && next export",
+    "start": "next start -p 3000",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
