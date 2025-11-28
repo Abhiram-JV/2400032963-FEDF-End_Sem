@@ -5,7 +5,7 @@
   "homepage": "https://abhiram-jv.github.io/2400032963-FEDF-End_Sem",
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start -p 3000",
     "deploy": "gh-pages -d out"
   },
